@@ -1,0 +1,97 @@
+.Dicounts_section{
+ background: linear-gradient(
+  to right,
+  rgba(255, 217, 61, 0.2),
+  rgb(255, 107, 53, 0.1)
+  );
+  padding: 4% 0px;
+  
+}
+
+.Container{
+  width: 90%;
+  margin:auto;
+}
+
+.Dicounts_section .Container h3{
+  color: #1a1a1a;
+  font-weight:500;
+  font-size: 20px;
+}
+
+.Dicounts_section .Container h3 span{
+  color: #FF6B35;
+  font-size: 25px;
+  
+}
+
+.Dicounts_section .Container .Offers_flex{
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+  align-items: center;
+}
+
+.Dicounts_section .Container .Offers_flex{
+  color: #ffffff;
+}
+
+.Dicounts_section .Container .Offers_flex .em{
+  font-size: 50px;
+  margin-bottom: .5rem;
+}
+
+.Dicounts_section .Container .Offers_flex h4{
+  margin-bottom: .5rem;
+}
+
+.Dicounts_section .Container .Offers_flex .Offer_card1,
+.Dicounts_section .Container .Offers_flex .Offer_card2{
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  transition: all .2s ease-in-out;
+}
+
+.Dicounts_section .Container .Offers_flex .Offer_card1{
+  background: linear-gradient(
+  to right,
+  rgba(255, 107, 53),
+  rgb(255, 107, 53, 0.8)
+  );
+}
+
+.Dicounts_section .Container .Offers_flex .Offer_card2{
+  background: linear-gradient(
+  to right,
+  rgb(78, 205, 196),
+  rgb(78, 205, 196, 0.8)
+  );
+}
+
+.Dicounts_section .Container .Offers_flex .Offer_card1:hover,
+.Dicounts_section .Container .Offers_flex .Offer_card2:hover{
+  transform: scale(1.02);
+  
+}
+
+.Dicounts_section .Container .Offers_flex button{
+  background-color: #ffffff;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 15px;
+  margin-top: 1rem;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: "Tajawal", sans-serif;
+  font-weight: 500;
+}
+
+.Dicounts_section .Container .Offers_flex .btn1{
+  color:#FF6B35 ;
+}
+
+.Dicounts_section .Container .Offers_flex .btn2{
+  color:#4ECDC4 ;
+}
