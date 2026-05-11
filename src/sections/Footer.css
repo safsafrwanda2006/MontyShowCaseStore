@@ -1,0 +1,128 @@
+.Footer_section{
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 3rem 0 1rem;
+}
+
+.Footer_section .Container{
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.Footer_section .Container .footer_content{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.Footer_section .Container .footer_content h3{
+  font-weight: 400;
+  margin-bottom: 1rem;
+  font-size: 18px;
+}
+
+.Footer_section .Container .footer_content p{
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+  margin-bottom: 12px;
+  line-height: 1.8;
+}
+
+.Footer_section .Container .footer_content .first_one,
+.Footer_section .Container .footer_content .second_one,
+.Footer_section .Container .footer_content .third_one{
+  flex: 1;
+  min-width: 220px;
+}
+
+.Footer_section .Container .footer_content .second_one p{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.Footer_section .Container .footer_content .second_one p svg{
+  font-size: 20px;
+  
+}
+
+.Footer_section .Container .footer_content .logos{
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.Footer_section .Container .footer_content .logos a{
+  background-color: rgba(255, 255, 255, 0.08);
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+.Footer_section .Container .footer_content .logos a svg{
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.Footer_section .Container .footer_content .logos a:hover{
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-4px);
+}
+
+.Footer_section .Container hr{
+  border: none;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.15);
+  margin: 2rem 0 1.5rem;
+}
+
+.Footer_section .Container .copy{
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+
+@media (max-width: 768px){
+
+  .Footer_section{
+    padding-top: 2rem;
+  }
+
+  .Footer_section .Container .footer_content{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2.5rem;
+  }
+
+  .Footer_section .Container .footer_content .second_one p{
+    justify-content: center;
+  }
+
+  .Footer_section .Container .footer_content .logos{
+    justify-content: center;
+  }
+
+  .Footer_section .Container .footer_content h3{
+    font-size: 20px;
+  }
+
+  .Footer_section .Container .footer_content p{
+    font-size: 15px;
+  }
+
+  .Footer_section .Container .copy{
+    font-size: 14px;
+    padding: 0 1rem;
+  }
+}
