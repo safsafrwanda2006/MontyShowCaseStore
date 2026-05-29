@@ -122,10 +122,12 @@
 #### Texts
 **Fixed Title:**
 - "البس صح وخليك مختلف"
+Elevate Your Style with Premium Casual Fashion
 
 **CTA Buttons:**
 - Mobile: "أطلب هسع" | "شوف المنتجات"
 - Desktop: "اطلب الآن" | "المنتجات"
+عرض المنتجات
 
 **Dynamic Descriptions (Hero Products):**
 1. "تيشيرت قطن 100% بتصميم عصري - الخيار المثالي للإطلالة اليومية"

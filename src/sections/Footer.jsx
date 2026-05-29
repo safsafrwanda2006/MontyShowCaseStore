@@ -11,19 +11,19 @@ function Footer() {
       <div className="Container">
         <div className="footer_content">
           <div className="first_one">
-            <h3>مونتي ستور</h3>
+            <h3>مونتي ShowCase</h3>
             <p>ستايلك... بطريقتك</p>
           </div>
           <div className="second_one">
             <h3>تواصل معنا</h3>
-            <p> <FiMessageCircle/> +249 123 456 789 </p>
-            <p> <IoCallOutline />+249 987 654 321 </p>
+            <p> <FiMessageCircle/> +249 11 068 3002 </p>
+            <p> <IoCallOutline />+249 11 068 3002 </p>
           </div>
           <div className="third_one">
             <h3>تابعنا</h3>
             <div className="logos">
-              <a href="#"><FaInstagram /></a>
-              <a href="#"><FiFacebook /></a>
+              <a href="https://www.instagram.com/taza.092011/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+              <a href="https://www.facebook.com/mntsr.khmys.651069" target="_blank" rel="noopener noreferrer"><FiFacebook /></a>
             </div>
           </div>
         </div>

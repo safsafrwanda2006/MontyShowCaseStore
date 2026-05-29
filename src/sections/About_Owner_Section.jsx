@@ -4,20 +4,23 @@ import './About_Owner_Section.css';
 import "../index.css";
 import { FiMessageCircle } from "react-icons/fi";
 import { IoCallOutline } from "react-icons/io5";
+import { openWhatsApp } from '../utils/helpers.js';
+import { APP_CONFIG } from '../config/constants.js';
 
 function About_Owner_Section() {
   return (
     <div className='About_Section'>
       <div className="Container">
         <div className="title_part">
-          <div className="owner_word_flex">
+          {/* Temp stop for now  */}
+          {/* <div className="owner_word_flex">
             <img src={ownerImg} alt="-owner" />
             <div className="content_word">
               <h3>كلمة صاحب المحل</h3>
               <p className='content'>السلام عليكم يا شباب! أنا أحمد، وأنا هنا عشان أقدم ليكم أفضل الملابس الكاجوال بأسعار معقولة. مونتي ستور بدأت من حب الموضة والستايل، وكل قطعة بنختارها بعناية عشان تكون مميزة وتناسب ذوقكم. ثقتكم فينا هي الأهم، ووعدنا ليكم جودة عالية وخدمة ممتازة.</p>
               <p className='sig'>أحمد محمد، مؤسس مونتي ستور</p>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="how_to_order_part">
            <div className="title">
@@ -42,8 +45,21 @@ function About_Owner_Section() {
               </div>
            </div>
            <div className="contacts_buttons">
-              <a href="#" ><button className='but_green'> <FiMessageCircle /> تواصل عبر واتساب </button></a>
-              <a href="#"><button className='but_orange'><IoCallOutline />اتصل بنا </button></a>
+              <button 
+                onClick={() => openWhatsApp()}
+                className='but_green'
+                title="تواصل معنا عبر واتساب"
+              > 
+                <FiMessageCircle /> تواصل عبر واتساب 
+              </button>
+
+              <button 
+                onClick={() => window.location.href = `tel:${APP_CONFIG.PHONE_NUMBER}`}
+                className='but_orange'
+                title="اتصل بنا"
+              > 
+                <IoCallOutline /> اتصل بنا 
+              </button>
            </div>
         </div>
       </div>
