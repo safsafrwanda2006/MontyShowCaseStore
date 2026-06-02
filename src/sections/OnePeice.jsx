@@ -54,7 +54,7 @@ function OnePeice({ setCart, cartProducts, setCartProducts }) {
           </>
         ) : onePieceProducts.length === 0 ? (
           <div className="empty-state">
-            <div className="empty-icon">🎁</div>
+            <div className="empty-icon"></div>
             <h2>لا توجد منتجات قطعة واحدة حالياً</h2>
             <p>نعمل على إضافة المزيد من المنتجات</p>
           </div>

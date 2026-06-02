@@ -42,9 +42,7 @@ function New({ setCart, cartProducts, setCartProducts }) {
           <h2>منتجات جديدة</h2>
           <h4>أحدث إضافاتنا</h4>
         </div>
-        <a className="view-all-btn1" href="#/products">
-          عرض الكل
-        </a>
+       
       </div>
 
       <div className="news">
@@ -58,7 +56,7 @@ function New({ setCart, cartProducts, setCartProducts }) {
           </>
         ) : newProducts.length === 0 ? (
           <div className="empty-state">
-            <div className="empty-icon">📦</div>
+            <div className="empty-icon"></div>
             <h2>لا توجد منتجات جديدة حالياً</h2>
             <p>نعمل على إضافة منتجات جديدة قريباً جداً</p>
             <p className="stay-tuned">تابعنا للحصول على أحدث العروض</p>
